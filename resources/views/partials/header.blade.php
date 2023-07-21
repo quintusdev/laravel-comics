@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-10 d-flex justify-content-center align-items-center mt-4">
+            <div class="col-10 d-flex justify-content-center align-items-center mt-2">
                 <img class="m-2" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
                 <div class="navbar-nav container navbar-light">
                     <ul class="list-unstyled d-flex justify-content-center align-items-center text-uppercase">
@@ -38,7 +38,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-2 d-flex justify-content-center align-items-center mt-4">
+            <div class="col-2 d-flex justify-content-center align-items-center mt-2">
                 <div class="search d-flex s-control">
                     <input type="text" class="form-control s-bar" placeholder="Search...">
                     <i class="fa fa-search align-self-center"></i>

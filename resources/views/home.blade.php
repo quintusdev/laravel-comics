@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        @include('partials.header');
+        @include('partials.header')
         <main>
             <div class="row">
                 <div class="col-12">
