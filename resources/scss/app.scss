@@ -1,5 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap%27');
 
 * {
     margin: 0;
@@ -8,9 +8,40 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.active {
-    color: #0074e8;
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        height: 100%;
+
+        &:hover {
+            border-bottom: 5px solid #0282f9;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+
+            &:hover {
+                color: #0282f9;
+            }
+        }
+    }
+}
+
+.active_a {
+    color: #0282f9
+}
+
+.active_li {
+    color: #0282f9
 }
