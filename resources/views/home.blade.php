@@ -33,6 +33,9 @@
                             </div>
                         @endforeach
                     </div>
+                    <div class="d-flex justify-content-center text-center align-items-center my-4 pb-4">
+                        <button type="button">LOAD MORE</button>
+                    </div>
                 </div>
             </div>
             
