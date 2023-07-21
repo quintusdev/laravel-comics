@@ -20,7 +20,12 @@
         <main>
             <div class="row">
                 <div class="col-12">
-                    <img src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
+                    <img class="jumbotron" src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
                 </div>
             </div>
         </main>
