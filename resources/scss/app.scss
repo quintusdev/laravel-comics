@@ -21,7 +21,7 @@ header span {
     background-color: #0282f9;
 }
 
-ul {
+header ul {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -116,7 +116,7 @@ button {
     }
 }
 
-footer .cont {
+.cont {
     background-image: url(../images/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,7 +127,6 @@ footer .cont {
 
         .flex {
             width: 100%;
-            display: flex;
             background-image: url(../images/dc-logo-bg.png);
             background-repeat: no-repeat;
             background-position: right center;
