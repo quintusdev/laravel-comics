@@ -18,3 +18,13 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('homepage');
 
+Route::get('/partials/{comics}', function($id){
+    $comics = config('db.comics');
+
+    if($id>=0 && $id< count($comics)){
+        $comics =$comics[$id];
+        return view('comics.show', compact('comics'));
+    }else{
+        abort('404');
+    }
+})->name('comics.show');
