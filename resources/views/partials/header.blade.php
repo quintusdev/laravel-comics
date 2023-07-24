@@ -50,4 +50,6 @@
             </div>
         </div>
     </div>
+    <!-- JUMBOTRON -->
+    <img class="jumbotron" src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
 </header>
