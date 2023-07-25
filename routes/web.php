@@ -13,10 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $comics = config('db.comics');
-    return view('home', compact('comics'));
-})->name('homepage');
+Route::get('/', [PageController::class, 'index']);
+
 
 Route::get('/products/{comic}', function($id){
     $comics = config('db.comics');
